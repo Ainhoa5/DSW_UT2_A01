@@ -3,6 +3,11 @@ duplicados, mostrando el valor inicial y el valor tras eliminar los duplicados. 
 ejemplo, para la siguiente cadena “1,2,3,2,4,1,5" se mostrará:
 1,2,3,2,4,1,5
 1,2,3,4,5 -->
+<?php 
+$path = '../';
+$titulo = 'Ejercicio 10';
+include '../includes/header.php';
+?>
 <?php
 // Cadena inicial
 $cadenaInicial = "1,2,3,2,4,1,5";

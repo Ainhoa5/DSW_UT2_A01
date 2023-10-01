@@ -1,5 +1,10 @@
 <!-- Declara un array con los valores: 1, 2, ‘antonio’, 200, ‘pepe’. Recorre el array empezando
 por el último elemento, ‘pepe’, mostrando cada elemento en una línea separada. -->
+<?php 
+$path = '../';
+$titulo = 'Ejercicio 9';
+include '../includes/header.php';
+?>
 <?php
 // Declarar el array con los valores especificados
 $array = [1, 2, 'antonio', 200, 'pepe'];

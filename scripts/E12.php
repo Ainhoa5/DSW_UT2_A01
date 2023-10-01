@@ -5,6 +5,11 @@ a continuación saltar tantas posiciones como el número indicado, mostrando en 
 posiciones _ (underscore) y volviendo a empezar. En el caso de mostrar un 0, se finaliza.
 Por ejemplo, saltos=2,3,4,1,5,3,6,7,8,1,10,0,20 se mostraría:
 2,_,_,1,_,3,_,_,_,1,_,0, -->
+<?php 
+$path = '../';
+$titulo = 'Ejercicio 12';
+include '../includes/header.php';
+?>
 <?php
 $saltos = "2,3,4,1,5,3,6,7,8,1,10,0,20";
 $array = explode(",", $saltos);

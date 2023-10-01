@@ -5,7 +5,11 @@
 <!-- ; ;  -->
 
 <!-- ; .  -->
-
+<?php 
+$path = '../';
+$titulo = 'Ejercicio 1';
+include '../includes/header.php';
+?>
 <?php
 // Realizar un programa en el que se declare una variable de cada tipo de dato
 $entero = 42;

@@ -1,5 +1,10 @@
 <!-- Realizar un programa que cada vez que se ejecute muestre tu nombre a un tamaño
 elegido al azar entre 200% y 700%. -->
+<?php 
+$path = '../';
+$titulo = 'Ejercicio 6';
+include '../includes/header.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 

@@ -1,7 +1,11 @@
 <!-- Realizar un programa en PHP que muestre un valor al azar entre 1 y 6 con las caras de
 un dado. Para ello puedes utilizar la función rand(valor_inicio, valor_final) y realizar la
 captura de seis imágenes de un dado para hacerlo más visual. -->
-
+<?php 
+$path = '../';
+$titulo = 'Ejercicio 5';
+include '../includes/header.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>

@@ -1,3 +1,4 @@
+
 <!-- Realizar el programa “Hola Mundo” pero añadiendo algo de estilo en PHP. -->
 <?php
 // Inicializa la variable del color de fondo

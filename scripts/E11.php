@@ -6,6 +6,11 @@ Ejemplos:
 • leaders ([16, 17, 4, 3, 5, 2]) ==> return {17, 5, 2]
 • leaders ([5, 2, -1]) ==> return [5, 2]
 • leaders ([0, -1, -29, 3, 2]) ==> return [0, -1, 3, 2] -->
+<?php 
+$path = '../';
+$titulo = 'Ejercicio 11';
+include '../includes/header.php';
+?>
 <?php
 function leaders($array) {
     $result = [];
